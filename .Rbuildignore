@@ -4,3 +4,5 @@
 ^\.github$
 ^src/piqp/.*git$
 ^src/piqp/.github$
+^src/piqp/external$
+^src/piqp/interfaces/python/external$
