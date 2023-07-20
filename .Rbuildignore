@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^.*git$
+^\.github$
+^src/piqp/.*git$
+^src/piqp/.github$

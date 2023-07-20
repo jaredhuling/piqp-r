@@ -1,0 +1,18 @@
+Package: piqp
+Type: Package
+Title: A Proximal Interior Point Quadratic Programming Solver
+Version: 0.1.3
+Authors@R: c(
+  person("Roland", "Schwan", role = c("aut", "cre", "cph"), email = "roland.schwan@epfl.ch"),
+  person("Yuning", "Jiang", role = c("aut")),
+  person("Daniel", "Kuhn", role = c("aut")),
+  person("Colin N.", "Jones", role = c("aut")))
+Description: Provides bindings to the 'PIQP' solver. 'PIQP' is a Proximal Interior Point Quadratic Programming solver for solving sparse and dense convex quadratic programs. It is written in 'Cpp' using the 'Eigen3' library for highly optimized linear algebra. See <https://predict-epfl.github.io/piqp/> for details.
+License: BSD_2_clause + file LICENSE
+Imports: Rcpp (>= 1.0.11), RcppEigen, methods, Matrix, R6
+LinkingTo: Rcpp, RcppEigen
+RoxygenNote: 7.2.3
+Suggests: testthat
+Encoding: UTF-8
+URL: https://predict-epfl.github.io/piqp/
+BugReports: https://github.com/PREDICT-EPFL/piqp-r/issues
